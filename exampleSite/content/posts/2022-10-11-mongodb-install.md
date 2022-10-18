@@ -1,14 +1,13 @@
 ---
-title: 数据库概览
-date: 2022-02-27 13:38:00
+title: MongoDB安装使用
+date: 2022-10-10 13:38:00
 categories: blog
 tags: 
 - 数据库
 - MongoDB
 - NoSQL
-keywords: hugo
+keywords: MongoDB
 ---
-# MongoDB
 
 环境:
 ``` 
@@ -83,24 +82,19 @@ MongoDB 也提供了[shell工具](https://www.mongodb.com/docs/v3.6/mongo/)来�
 mongo
 # 指定ip和端口连接MongoDB
 mongo --host 127.0.0.1:27017
-# 
-> db.inventory.insertOne( { item: "canvas", qty: 100, tags: ["cotton"], size: { h: 28, w: 35.5, uom: "cm" } })
-{
-	"acknowledged" : true,
-	"insertedId" : ObjectId("634506671494a39cd9eb9760")
-}
-
-
-> db.inventory.find({});
-{ "_id" : ObjectId("634506671494a39cd9eb9760"), "item" : "canvas", "qty" : 100, "tags" : [ "cotton" ], "size" : { "h" : 28, "w" : 35.5, "uom" : "cm" } }
-{ "_id" : ObjectId("634506db1494a39cd9eb9761"), "item" : "canvas", "qty" : 100, "tags" : [ "cotton" ], "size" : { "h" : 28, "w" : 35.5, "uom" : "cm" } }
-
-```
-
-```java
-
+# 显示当前使用的数据库，默认的数据库为test
+db
+# 显示全部数据库
+show dbs
+# 切换当前操作的数据库，没有则会直接创建
+use dbName
+# 在数据库插入一条数据,这里的user在MongoDB称之为Collection相当于Mysql表的概念，即在user表中添加一条数据
+db.user.insertOne({name:"cdy",sex:"male",age:23,food:["apple","banana"]})
+# 查看Collection中所有的数据
+db.user.find()
+# 列出所有的Collection
+show collections
 ```
 
 ## reference
 + [MongoDB 3.6官方文档](https://www.mongodb.com/docs/v3.6/) https://www.mongodb.com/docs/v3.6/
-+ 
