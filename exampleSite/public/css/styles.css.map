@@ -1,9 +1,9 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "D:/document/hugo_site/hugo-theme-cactus/exampleSite",
+	"sourceRoot": "D:/document/github/hugo-theme-cactus/exampleSite",
 	"sources": [
-		"D:/document/hugo_site/hugo-theme-cactus/assets/scss/style.scss",
+		"D:/document/github/hugo-theme-cactus/assets/scss/style.scss",
 		"assets/scss/_variables.scss",
 		"assets/scss/colors/dark.scss",
 		"assets/scss/_util.scss",

@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cdy27.com/categories/blog/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/categories/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/tags/mongodb/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/posts/2022-10-11-mongodb-shell/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/tags/nosql/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/posts/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/tags/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2022-10-17T13:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cdy27.com/posts/2022-10-11-mongodb-install/</loc>
+    <lastmod>2022-10-10T13:38:00+00:00</lastmod>
+  </url><url>
     <loc>https://cdy27.com/tags/blog/</loc>
     <lastmod>2022-02-27T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://cdy27.com/categories/blog/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cdy27.com/categories/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cdy27.com/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cdy27.com/posts/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cdy27.com/tags/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
     <loc>https://cdy27.com/posts/2022-04-27-blog-born/</loc>
-    <lastmod>2022-02-27T13:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cdy27.com/posts/2022-04-27-test-md/</loc>
     <lastmod>2022-02-27T13:38:00+00:00</lastmod>
   </url><url>
     <loc>https://cdy27.com/about/</loc>
