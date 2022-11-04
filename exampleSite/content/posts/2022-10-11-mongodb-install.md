@@ -95,6 +95,10 @@ db.user.find()
 # 列出所有的Collection
 show collections
 ```
+## 增删改查
+MongoDB的官方文档其实很详细，这里简单记录一下。
+[添加文档]
+
 
 ## reference
 + [MongoDB 3.6官方文档](https://www.mongodb.com/docs/v3.6/) https://www.mongodb.com/docs/v3.6/
