@@ -54,7 +54,7 @@ weight = 4
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hi,欢迎你来到这里！Dylano Chan是我的英文名字。我姓陈，柚子则是以前的的一个外号，便叫陈柚。还没想好这里将会有些什么，所以以后再补充好了。"
+  description = "Hi,欢迎你来到这里！"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

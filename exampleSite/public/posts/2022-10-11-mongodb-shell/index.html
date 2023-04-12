@@ -24,7 +24,6 @@ Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)MongoDB v3.6.23 进入mon
 <meta property="article:published_time" content="2022-10-17T13:38:00+00:00" />
 <meta property="article:modified_time" content="2022-10-17T13:38:00+00:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MongoDB常用shell命令(增删改查)"/>
 <meta name="twitter:description" content="环境:
@@ -222,14 +221,14 @@ Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-47-generic x86_64)MongoDB v3.6.23 进入mon
 MongoDB v3.6.23
 </code></pre><h2 id="进入mongo-shell">进入mongo Shell</h2>
 <p>安装MongoDB会默认安装mongo shell.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#6272a4"># 进入mongo shell，不加参数默认localhost和27107端口</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>mongo
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#6272a4"># 指定的ip和端口</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>mongo 127.0.0.1:27017
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#6272a4"># 指定ip和端口,并进入指定的database</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>mongo 127.0.0.1:27017/dbName
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#6272a4"># 进入mongo shell，不加参数默认localhost和27107端口</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>mongo
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#6272a4"># 指定的ip和端口</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>mongo 127.0.0.1:27017
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#6272a4"># 指定ip和端口,并进入指定的database</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>mongo 127.0.0.1:27017/dbName
 </span></span></code></pre></div><h2 id="reference">reference</h2>
 <ul>
 <li><a href="https://www.mongodb.com/docs/v3.6/">MongoDB 3.6官方文档</a> <a href="https://www.mongodb.com/docs/v3.6/">https://www.mongodb.com/docs/v3.6/</a></li>
@@ -368,7 +367,7 @@ MongoDB v3.6.23
 
   <footer id="footer">
   <div class="footer-left">
-    Copyright  &copy; 2022  Dylano Chan 
+    Copyright  &copy; 2023  Dylano Chan 
     
     <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2022006317号</a>
   </div>
