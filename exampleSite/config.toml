@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Dylano Chan 陈柚"
 theme = "hugo-theme-cactus"
 copyright = "Dylano Chan" # cactus will use title if copyright is not set
-disqusShortname = "Dylano Chan" # Used when comments is enabled. Cactus will use site title if not set
+disqusShortname = "cdy27" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -68,10 +68,11 @@ weight = 4
   # Post page settings
   show_updated = true # default
   showReadTime = true # default
+  mathjax = true
 
   [params.comments]
     enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    engine = "disqus" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
