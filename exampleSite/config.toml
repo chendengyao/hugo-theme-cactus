@@ -1,6 +1,6 @@
 baseURL = "https://cdy27.com"
 languageCode = "en-us"
-title = "Dylano Chan 陈柚"
+title = "Dylano Chan"
 theme = "hugo-theme-cactus"
 copyright = "Dylano Chan" # cactus will use title if copyright is not set
 disqusShortname = "cdy27" # Used when comments is enabled. Cactus will use site title if not set
@@ -92,4 +92,4 @@ weight = 4
     link = "https://www.linkedin.com/company/github/"
   [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "1171077218qq@gmail.com"  # no need for "mailto:" in the head
